@@ -1,0 +1,26 @@
+# --- Arduino / Arduino CLI build output ---
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.o
+# Arduino CLI per-sketch build cache
+**/build/
+
+# --- PlatformIO (if ever used) ---
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
